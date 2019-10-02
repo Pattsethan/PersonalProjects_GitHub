@@ -4,7 +4,7 @@ import os
 import json
 import webbrowser
 class StartHallway():
-    '''docstring'''
+    ''' '''
     def __init__(self):
         self.jsonpath = "notebook.json"
         self.notebook = open(self.jsonpath, "r")
@@ -12,7 +12,7 @@ class StartHallway():
         self.classroom = []
 
     def entrance(self):
-        '''Loads userdata from Json file "notebook" and prompts user based on the data in Json file'''
+        '''Loads userdata from Json file "notebook.json" and prompts user based on the data in Json file'''
 
         with open(self.jsonpath) as notebook:
             data = json.load(notebook)
@@ -43,7 +43,8 @@ class StartHallway():
                 break
 
     def settings(self):
-        '''Allows user to add or delete a "class" within the notebook.json file'''
+        '''Allows user to add or delete a "class" within the notebook.json file with instructive prompts'''
+        '''This function in itself was not too difficult to complete, but the fact that I could finally successfully work with Json files, I have to admit had me pretty hyped up''' 
         materiallist = []
         urllist = []
         while True:
