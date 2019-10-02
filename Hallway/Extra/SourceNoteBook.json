@@ -1,0 +1,22 @@
+{
+    "Courses": {
+        "Python": {
+            "urls": [
+                "https://docs.google.com/document/d/10AK86-_1Xpcx_Omw4QFHb6mIQ22vPKum6QjjbaX7WLQ/edit#",
+                "https://www.udemy.com/complete-python-bootcamp/learn/v4/content"
+            ],
+            "applications": ["texteditor"
+            ]
+        },
+
+        "CyberSecurity": {
+            "urls": [
+                "https://www.udemy.com/comptia-security-certification-sy0-501-the-total-course/learn/v4/content",
+                "https://docs.google.com/document/d/1oKebFZsjJvSKAQhZ_90CjtDrUejrdD9nKYynHfTDne8/edit#"
+            ],
+            "applications": [
+                
+            ]
+        }
+    }
+}
