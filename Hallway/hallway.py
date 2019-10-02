@@ -44,6 +44,7 @@ class StartHallway():
 
     def settings(self):
         '''Allows user to add or delete a "class" within the notebook.json file with instructive prompts'''
+        '''This function in itself was not too difficult to complete, but the fact that I could finally successfully work with Json files, I have to admit had me pretty hyped up''' 
         materiallist = []
         urllist = []
         while True:
